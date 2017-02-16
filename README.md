@@ -1,5 +1,5 @@
 # BasicCSSJSGrunt
 # How to run!
-go to folder and run following commands
-npm install
-grunt build:dev
+go to folder and run following commands\n
+npm install\n
+grunt build:dev\n
