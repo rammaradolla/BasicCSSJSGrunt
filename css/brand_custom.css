@@ -1,0 +1,9 @@
+/* line 2, css/LESS/component1.less */
+body a {
+  color: red;
+}
+/* line 5, css/LESS/component1.less */
+body h1 {
+  font-size: 20px;
+  color: greenyellow;
+}
