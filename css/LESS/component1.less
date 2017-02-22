@@ -1,9 +1,39 @@
-body {
-   a {
-     color: red;
-   }
-  h1{
-    font-size: 20px;
-    color:greenyellow;
+.container {
+  margin:  0 5%;
+  .first-section {
+    width:100%;
+    height:200px;
+    box-sizing: border-box;
+    .block {
+      width:100%;
+      height:100%;
+      border:1px solid green;
+      box-sizing: border-box;
+      float:left;
+      @media @mediumQuery{
+        width:33.33%;
+      }
+    }
+  }
+  .second-section {
+    height:200px;
+    .block {
+      width:50%;
+      height:100%;
+      border:1px solid red;
+      box-sizing: border-box;
+      float:left;
+    }
+
+  }
+  .third-section {
+    height:200px;
+    .block {
+      width:25%;
+      height:100%;
+      border:1px solid orange;
+      box-sizing: border-box;
+      float:left;
+    }
   }
 }

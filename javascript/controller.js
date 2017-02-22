@@ -52,33 +52,6 @@ APP.core.controller = (function () {
         }
     };
 
-    /*
-    var executeDynamicElementsInDom = function (attribute){
-        // select the target node
-        var target = document.getElementById("ProductCompare");
-
-        // create an observer instance
-        var observer = new MutationObserver(function(mutations) {
-            mutations.forEach(function(mutation) {
-                $(mutation.addedNodes).each(function(){
-                    if($(this).is("["+attribute+"]")){
-                        var routeName = $(this).attr(attribute);
-                        setRoute(routeName);
-                        executeRouteForElement(this);
-                    }
-                });
-            });
-        });
-
-        if(target !== null){
-            // configuration of the observer:
-            var config = {childList: true};
-            // pass in the target node, as well as the observer options
-            observer.observe(target, config);
-        }
-    };
-    */
-
     var init = function(filterArray) {
 
         var routes = locateRoutableElementsInDOM('data-action');
